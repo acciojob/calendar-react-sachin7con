@@ -95,6 +95,7 @@ const App = () => {
         })}
 
       </select>
+      <p></p>
       {isEditing ? (<input type="number" onBlur={() => setIsEditing(false)} onChange={handleYearChange} /> ) : 
       (          <p
         onDoubleClick={() => setIsEditing(true)}
