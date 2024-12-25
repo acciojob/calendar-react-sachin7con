@@ -103,7 +103,7 @@ const App = () => {
       </div>
 
       {/* days table  */}
-      <hr />
+      <hr /><br />
       <table gap="20px"
         style={{
           marginTop: "20px",
